@@ -7,10 +7,19 @@ body {
   margin: 0;
 }
 
+:root {
+  --color1: #84A98C;
+  --color2:  #354f52;
+  --color3: #ffb5a7;
+  --color4: #CAD2C5;
+  --color5: #b9c6ae;
+  --white: #fff; 
+  }
+
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: var(--color2);
   color: #fff;
 }
 
@@ -20,11 +29,11 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: var(--color4);
 }
 
 nav a {
-  color: #13293d;
+  color: var(--color2);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -41,7 +50,7 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: var(--color5);
   padding: 80px;
   text-align: center;
 }
@@ -49,17 +58,17 @@ aside {
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--color2);
+  color: var(--white);
 }
 
 /* 
 What does the justify-content property do?
 It is used to align the flex items; in our case, the product cards 
 */
-.products {
+.projects {
   flex: 4;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +81,7 @@ It is a shorthand property for the flex-grow, flex-shrink, and flex-basis proper
 What is it doing here?
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
-.card {
+.project {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -80,15 +89,15 @@ We are making the product card not growable, not shrinkable, and with an initial
   flex: 0 0 400px;
 }
 
-.card header {
+.project header {
   padding: 20px;
 }
 
-.card p {
+.project p {
   text-align: center;
 }
 
-.card img {
+.projectz img {
   width: 100%;
 }
 
