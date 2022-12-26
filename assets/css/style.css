@@ -51,9 +51,19 @@ main {
 
 aside {
   flex: 1;
+  flex-direction: column;
+  gap: 1rem;
   background-color: var(--color5);
   padding: 80px;
   text-align: center;
+  columns: 1;
+  
+}
+
+aside > img {
+  width: 50%;
+  height: auto;
+  
 }
 
 .projects {
@@ -88,9 +98,7 @@ aside {
 .project img {
   width: 80%;
   height: 80%;
-  ;
-
-
+  
 }
 
 .bigproject {
