@@ -22,12 +22,11 @@ No installation is required.
 
 A screenshot is included below of the site. Saved here: 
 
-/Users/caseyfee/Documents/Working Files/Challenge 1/Horsieon-Accessibility/assets/images
+/Users/caseyfee/Documents/Working Files/FilesBCSDownload/Week_2/Fee_Casey-Portfolio/assets/css/images
 
 
 A GitHub link is here: https://github.com/caseyfee/Fee_Casey-Portfolio.git
-or
-git@github.com:caseyfee/Horsieon-Accessibility.git
+
 
 Live link: https://caseyfee.github.io/Fee_Casey-Portfolio/
 
