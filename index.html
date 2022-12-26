@@ -5,33 +5,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <scroll-behavior: smooth; />
+    
 
   </head>
   <body>
     <!-- Header -->
     <header>
-      <h1>Welcome to Casey Fee's portfolio!</h1>
+      <h1>Welcome to Casey Fee's first site!</h1>
       <p>
-        Feel free to click around and view my my projects so far. I'll be adding to it as I create more. 
+        Feel free to click around and view the site so far. I'll be adding and updating it as I create and learn more. 
       </p>
     </header>
 
     <!-- Navbar -->
     <nav>
-      <a href="#">About Me</a>
+      <a href="#aboutme">About Me</a>
       <a href="https://www.linkedin.com/in/casey-fee-49518919/" target="_blank">LinkedIn</a>
-      <a href="#">Resume</a>
       <a href="#Horsieon">Work</a>
-      <a href="#">Contact Me</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contactme">Contact Me</a>
     </nav>
 
     <!-- Body -->
     <main>
       <!-- Sidebar -->
       <!-- @Casey- Needs to be split into two! -->
-      <aside>
+      <aside id="aboutme">
         <h2>About Me:</h2>
+        <!-- @casey Add actual about me and a current picture or avatar -->
         <p>The navbar and this sidebar will be stacked on top of each other!</p>
         <p>
           And the product cards will wrap around as the screen gets smaller.
@@ -44,32 +45,32 @@
       </aside>
       <!-- Project Cards -->
       <div class="projects">
-        <section class="project" id="Horsieon">
-          <header>Horsieon-Accessibility</header>
-          <a href="https://github.com/caseyfee/Horsieon-Accessibility.png"> <img src="./assets/images/Horsieon-Accessibility.jpg" alt="Horsieon-Accessibility"></a>
+        <section class="bigproject" id="Horsieon">
+          <header>Horsieon Accessibility Update</header>
+          <a href="https://github.com/caseyfee/Horsieon-Accessibility.png"> </a>
+          <img src="./assets/css/images/Horiseon-Webpage-Screenshot.png" alt="Horsieon-Accessibility" />
 
           <p> </p>
         </section>
-        <section class="project" id="pottery">
+        <section class="project" id="hobbies">
           <header>Pottery</header>
-          <img src="./assets/images/pottery-bottle-study.jpg" alt="tablet held in hands" />
+          <img src="./assets/css/images/pottery-bottle-study.jpg" alt="5 small ceramic bottles" />
           <p>Bottle Study in 2021</p>
         </section>
-        <section class="project" id="plants">
-          <header>Plants</header>
-          <img
-            src="./assets/images/backyard.jpg"
-            alt="The restored prairie in my parents backyard"
-          />
-          <p>The restored prairie in my parents backyard</p>
+        <section class="project" >
+          <header>Bees and Plants</header>
+          <img src="./assets/css/images/backyard.jpg" alt="Beehives in my parents yard" />
+          <a href="https://instagram.com/feesbees_5?igshid=OGQ2MjdiOTE=" target ="_blank"> Fees Bees </a>
+                    
+          <p>The restored prairie in my parents backyard with bee hives</p>
         </section>
-        <section class="project" id="woodworking">
+        <!-- <section class="project" id="woodworking">
           <header>Wooden Spoons</header>
           <img
             src="./assets/images/wooden-spoons.jpg"
             alt="A professionally carved spoon"
-          />
-          <p>Spoon Carving Club Meeting Oct. 2022</p>
+          /> 
+          <p>Spoon Carving Club Meeting Oct. 2022</p> -->
         </section>
       </div>
     </main>
@@ -77,9 +78,9 @@
     <!-- Footer -->
     <footer id="footer">
       <h3>
-        Contact Me
+        Contact Me here or at caseyfee3@gmail.com
       </h3>
-      <form>
+      <form id="contactme">
         <label for="fname">Name:</label>
         <input type="text" name="fname" >
         <label for="lname">Your Email:</label>

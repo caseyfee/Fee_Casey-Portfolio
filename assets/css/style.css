@@ -1,11 +1,13 @@
 /* Overall formatting */
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
+  
 }
 
 :root {
@@ -15,6 +17,7 @@ body {
   --color4: #CAD2C5;
   --color5: #b9c6ae;
   --white: #fff; 
+  --smallwidth: 50%;
   }
 /* Header and Navbar */
 header {
@@ -27,7 +30,9 @@ header {
 
 nav {
   display: flex;
+  /* didn't fill out entire top row -float: right */
   background-color: var(--color4);
+  
 }
 
 nav a {
@@ -61,11 +66,15 @@ aside {
 }
 
 .project {
+  height: 300px;
+  width: var(--smallwidth);
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
+  display: flex;
   flex: 0 0 400px;
+
 }
 
 .project header {
@@ -76,10 +85,30 @@ aside {
   text-align: center;
 }
 
-.projectz img {
-  width: 100%;
+.project img {
+  width: 80%;
+  height: 80%;
+  ;
+
+
 }
 
+.bigproject {
+  height: 100px;
+  width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  /* margin-bottom: 25px; */
+  /* background-size: cover;
+  background-position: center; */
+}
+.bigproject > img {
+  height: 100px;
+  width: 50%;
+  padding: 10px;
+}
 /* Footer */
 
 footer {
@@ -101,6 +130,11 @@ form {
   nav {
     flex-direction: column;
   }
+
+  .bigproject {
+    height: 300px;
+    width: var(--smallwidth);
+
 }
 
 
