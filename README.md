@@ -6,9 +6,9 @@ This website is my first website from scratch. It was created to showcase some o
 I also learned a lot including:
 
 - How to apply smooth scrolling;
-- Creating images that are hyperlinked;
-- General CSS formatting using flex properties;
-- Using and applyig variables throughout CSS;
+- Creating hyperlinked images;
+- CSS formatting using flex properties;
+- Using and applying variables throughout CSS;
 - How to create a form (but not how to harvest inputs);
 - Using Coloors to select a color pallet;
 - and so much more!
