@@ -10,7 +10,7 @@ I also learned a lot including:
 - CSS formatting using flex properties;
 - Using and applying variables throughout CSS;
 - How to create a form (but not how to harvest inputs);
-- Using Coloors to select a color pallet;
+- Using Coolors to select a color pallet;
 - and so much more!
 
 

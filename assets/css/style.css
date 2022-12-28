@@ -30,7 +30,6 @@ header {
 
 nav {
   display: flex;
-  /* didn't fill out entire top row -float: right */
   background-color: var(--color4);
   
 }
@@ -39,14 +38,14 @@ nav a {
   color: var(--color2);
   padding: 14px 20px;
   text-decoration: none;
+  /* align-content: flex-end; <-why does this not do anything*/
   text-align: center;
 }
 
 /* Main */
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  
 }
 
 aside {
@@ -67,24 +66,24 @@ aside > img {
 }
 
 .projects {
-  flex: 4;
-  background-color: var(--white);
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 6px;
+  gap: 8px;
+  flex: 4;
+  background-color: var(--white);
+  padding: 20px;
+  
 }
 
 .project {
-  height: 300px;
-  width: auto;
+  flex-grow: 0;
+  /* height: 300px; */
+  width: calc(50%-5px);
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
-  display: flex;
-  flex: 1;
 
 }
 
@@ -103,15 +102,14 @@ aside > img {
 }
 
 .bigproject {
-  height: 100px;
+  height:500px;
   width: 50%;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
   /* margin-bottom: 25px; */
-  /* background-size: cover;
-  background-position: center; */
+
 }
 .bigproject > img {
   height: 100px;
@@ -140,13 +138,19 @@ form {
     flex-direction: column;
   }
 
-  .bigproject {
+  .project, .bigproject {
     height: 300px;
     width: var(--smallwidth);
 
+  
 }
 
+  /* .project, .bigproject img {
+    max-height: max-content;
 
+  } */
+
+}
 /* Helpful notes from previous activity */
 /* 
 What does the justify-content property do?
