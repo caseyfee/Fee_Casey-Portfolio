@@ -4,6 +4,8 @@
   scroll-behavior: smooth;
 }
 
+nav:hover, nav:active {font-size: large;}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
