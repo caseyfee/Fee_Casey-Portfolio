@@ -4,6 +4,12 @@
   scroll-behavior: smooth;
 }
 
+img:hover {
+  width: 50%;
+  
+
+}
+
 nav:hover, nav:active {font-size: large;}
 
 body {
@@ -21,6 +27,11 @@ body {
   --white: #fff; 
   --smallwidth: 50%;
   }
+
+main {
+  display: flex;
+}
+
 /* Header and Navbar */
 header {
   padding: 40px;
@@ -34,68 +45,107 @@ nav {
   display: flex;
   background-color: var(--color4);
   justify-content: center;
-
 }
 
 nav a {
   color: var(--color2);
   padding: 14px 20px;
   text-decoration: none;
-  
-  
 }
 
 /* Main */
 
-main {
-  display: flex;
-
-}
 
 /* Aside Bar */
 
-aside {
+#workheader {
+  font-size: xx-large;
+  width: 25%;
+  max-height: 300px;
+  background-color: var(--color2);
+  color: var(--white);  
+  }
+
+#workheader, hobheader {
+  position: absolute
+  right: 5px;
   
-  flex-direction: column;
-  gap: 1rem;
-  background-color: var(--color5);
-  padding: 80px;
+}
+
+/* About Me Section */
+article { 
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  columns: 1;
-  
+  background: var(--color5);
+  color: var(--color2);
+  font-weight: bold ;   
 }
 
-aside > img {
-  width: 50%;
+  #aboutme > img {
+  width: 120px;
   height: auto;
-  
-}
-
+  border-radius: 15px;
+  margin-right: 20px;
+  }
 /* Project Grid in Middle */
 
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 6px;
   background-color: var(--white);
-  padding: 20px;
-  
+  margin-bottom: 10px;
+  /* padding: 20px; */  
 }
 
-.project {
-  flex-grow: 0;
-  flex-direction: column;
-  width: 49%;
+.bigproject {
+  width: 75%;
+  max-height: 300px;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 10px;
+}
 
+.break {
+  flex-basis: 100%;
+  width: 0px;
+}
+
+#hobheader { 
+  width: 100%;
+  height: 600px;
+  background-color: var(--color2);
+  color: var(--white); 
+  width: 300px;
+  font-size: xx-large;
+  text-align: center;
+  align-items: center;
+}
+
+.project {
+  
+  flex-grow: 
+  /* What does this do ^^ */
+  /* flex-direction: row; */
+  max-height: 300px;
+  width: 25%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  
 }
 
 .project header {
+  /* display: flex; */
+  width: 30%;
   padding: 20px;
+  position: relative;
+  bottom: -150px;
+  left: -10px;
 }
 
 .project p {
@@ -103,22 +153,14 @@ aside > img {
 }
 
 img {
-  flex-grow: 0;
-  width: 50%;
-  align-content: center;
-    
-}
-
-.bigproject {
-  width: 100%;
+  flex-grow: 1;
+  width: 200px;
   height: auto;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 0px;
-
+  align-content: center;
+  transition: width 1s, height 1s;
+  justify-content: center;
 }
+
 
 /* Footer */
 
@@ -131,14 +173,13 @@ footer {
 
 form {
   padding: 10px 0 10px 0;
-
 }
 
 /* Sizing formatting */
 
 @media screen and (max-width: 768px) {
   
-  main, .projects,
+  main, .projects, article,
   nav {
     flex-direction: column;
     align-items: center;
@@ -148,11 +189,11 @@ form {
   .project, .bigproject {
     height: 350px;
     width: 100%;
-}
+  }   
 
   img {
     max-height: 190px;
-}
+  }
 /* Helpful notes from previous activities for myself*/
 /* 
 What does the justify-content property do?
