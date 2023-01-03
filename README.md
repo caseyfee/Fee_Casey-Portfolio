@@ -30,7 +30,7 @@ A GitHub link is here: https://github.com/caseyfee/Fee_Casey-Portfolio.git
 
 Live link: https://caseyfee.github.io/Fee_Casey-Portfolio/
 
-![Webpage Screenshot](./assets/css/images/portfolio_pic.png)
+![Webpage Screenshot](./assets/css/images/portfolio-pic.png)
 
 
 ## Credits

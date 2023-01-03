@@ -100,13 +100,10 @@ article {
 }
 
 .bigproject {
-  display: flex;
-  width: 75%;
   max-height: 300px;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-  padding: 10px;
   margin-bottom: 10px;
 }
 
@@ -143,10 +140,6 @@ article {
   width: 30%;
   max-height: 30%;
   padding: 20px;
-}
-
-#Horsieon header {
-  width: 50%;
 }
 
 #Horsieon {
@@ -219,16 +212,15 @@ form {
     max-height: 60px;
     max-width: 100%;
   }
-  
+
   .project header {
-    position: relative;
-    text-align: center;
-    justify-content: flex-end;
     width: auto;
     max-height: 30%;
     padding: 20px;
   }
+ 
 } 
+
 /* Helpful notes from previous activities for myself*/
 /* 
 What does the justify-content property do?
