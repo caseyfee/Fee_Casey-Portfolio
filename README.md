@@ -18,9 +18,9 @@ I also learned a lot including:
 
 No installation is required.
 
-## Usage - Needs Update
+## Usage
 
-A screenshot is included below of the site. Saved here: 
+A screenshot is included below of the site. The site images are saved here: 
 
 /Users/caseyfee/Documents/Working Files/FilesBCSDownload/Week_2/Fee_Casey-Portfolio/assets/css/images
 
