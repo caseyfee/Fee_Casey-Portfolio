@@ -31,7 +31,8 @@ A GitHub link is here: https://github.com/caseyfee/Fee_Casey-Portfolio.git
 Live link: https://caseyfee.github.io/Fee_Casey-Portfolio/
 
 ![Webpage Screenshot](./assets/css/images/portfolio-pic.png)
-
+Updated Feb 2023:
+![Webpage Screenshot](./assets/css/images/workUpdate.png)
 
 ## Credits
 

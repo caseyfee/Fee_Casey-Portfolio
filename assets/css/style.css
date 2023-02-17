@@ -149,6 +149,13 @@ article {
   background-repeat: no-repeat;
 }
 
+#EventDash {
+  background-image: url(./images/EventDash.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .project p {
   text-align: center;
 }
