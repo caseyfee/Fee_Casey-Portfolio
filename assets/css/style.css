@@ -156,6 +156,13 @@ article {
   background-repeat: no-repeat;
 }
 
+#Sundae {
+  background-image: url(./images/SundaeHomepage.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .project p {
   text-align: center;
 }

@@ -33,6 +33,8 @@ Live link: https://caseyfee.github.io/Fee_Casey-Portfolio/
 ![Webpage Screenshot](./assets/css/images/portfolio-pic.png)
 Updated Feb 2023:
 ![Webpage Screenshot](./assets/css/images/workUpdate.png)
+Updated April 2023:
+![Webpage Screenshot](./assets/css/images/PortfolioApril23.png)
 
 ## Credits
 
